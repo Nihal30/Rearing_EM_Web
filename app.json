@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "em-reparings",
+    "slug": "em-reparings",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splashScreen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.knihal0920.emreparings"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9fff27df-6112-46fa-8934-ff163c7fd36b"
+      }
+    },
+    "build": {
+      "production": {
+        "releaseChannel": "production",
+        "android": {
+          "buildType": "apk"
+        },
+        "ios": {
+          "buildType": "archive"
+        }
+      }
+    }
+  }
+}
